@@ -61,7 +61,7 @@ nyt_books <- nyt_rnk1 %>%
   geom_col(aes(fill = month),show.legend = FALSE) +
   coord_polar() +
   labs(title = "October & November Have The Most Books Debuting at No.1",
-       subtitle = "Books that debut at No.1",
+       subtitle = "Number of Books debuting at No.1(1990 - 2020)",
        caption = "Tidy_tuesday | Plot by balke analytics") +
   scale_fill_brewer(type = "qual",palette = "Paired")+
   theme_minimal() +
